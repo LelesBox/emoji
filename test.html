@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<script type="text/javascript">
+	var text=".ico_emoji0032, .ico_emoji0001, .ico_emoji0007, .ico_emoji0004, .ico_emoji0008, .ico_emoji0002, .ico_emoji0011, .ico_emoji0009, .ico_emoji0013, .ico_emoji0012, .ico_emoji0014, .ico_emoji0006, .ico_emoji0015, .ico_emoji0017, .ico_emoji0018, .ico_emoji0005, .ico_emoji0016, .ico_emoji0010, .ico_emoji0020, .ico_emoji0019, .ico_emoji0021, .ico_emoji0022, .ico_emoji0023, .ico_emoji0025, .ico_emoji0028, .ico_emoji0026, .ico_emoji0030, .ico_emoji0029, .ico_emoji0031, .ico_emoji0034, .ico_emoji0003, .ico_emoji0033, .ico_emoji0035, .ico_emoji0037, .ico_emoji0036, .ico_emoji0038, .ico_emoji0039, .ico_emoji0040, .ico_emoji0041, .ico_emoji0042, .ico_emoji0043, .ico_emoji0044, .ico_emoji0045, .ico_emoji0046, .ico_emoji0048, .ico_emoji0050, .ico_emoji0049, .ico_emoji0051, .ico_emoji0027, .ico_emoji0052, .ico_emoji0024, .ico_emoji0057, .ico_emoji0054, .ico_emoji0053, .ico_emoji0059, .ico_emoji0056, .ico_emoji0058, .ico_emoji0061, .ico_emoji0060, .ico_emoji0055";
+	var regx=/ico_emoji..../g;
+	var str="";
+	while(matche=regx.exec(text)){
+		console.log(matche);
+		str+='"'+matche[0]+'",';
+	}
+		console.log(str);
+	// var matches=regx.exec(text);
+	// console.log(matches);
+	// var matches=regx.exec(text);
+	// console.log(matches);
+</script>
+<body>
+	
+</body>
+</html>
