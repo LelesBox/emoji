@@ -7,7 +7,13 @@
     width: 300px;
     box-sizing:border-box;
 }
+.emoji-ul{
+    margin:18px;
+    padding: 0;
+}
 #emoji-container{
+    padding: 0;
+    margin: 0;
 	height: 100%;
 	width: 100%;
 	position: relative;
@@ -39,14 +45,11 @@
     transform: rotate(45deg)
 }
 
-.emoji-ul{
-    margin:18px;
-    padding: 0;
-}
-.clearfix{
+
+.emoji-clearfix{
     display: inline-block;
 }
-.clearfix:after{
+.emoji-clearfix:after{
     content: ".";
     display: block;
     height: 0;
